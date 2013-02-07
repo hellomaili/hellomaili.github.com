@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div id="post">
+  <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+  {% include published.textile %}
+  {% if page.summary and page.summary.size > 0 %}
+  <div>{{ page.summary }}</div>{% endif %}
+  {{ content }}
+
+{% if page.tags and page.tags.size > 0 %}
+  <hr />
+  <div class="item_tags">Tags:{% for tag in page.tags %}
+    <a href="/tags/{{ tag | replace:'+','%20'}}.html">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}
+  </div>{% endif %}
+</div>
+
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+{% for post in site.related_posts limit:3 %}{% include post.textile %}{% endfor %}
+  </ul>
+</div>
+

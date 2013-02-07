@@ -1,0 +1,8 @@
+home: http://maili.rooden.ee
+name: hellomaili
+author: Maili Rooden
+email: maili@rooden.ee
+paginate: 25
+permalink: /:year/:month/:day/:title.html
+exclude:
+- README
