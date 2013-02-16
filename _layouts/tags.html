@@ -8,7 +8,7 @@ layout: default
 <ul class="posts">
 {% for post in site.posts %}
 	{% if post.tags contains page.title %}
-	{% include post.textile %}
+	{% include post.html %}
 	{% endif %}
 {% endfor %}
 </ul>

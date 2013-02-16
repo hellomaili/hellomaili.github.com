@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h2><a href="{{ page.url }}">Blog</a></h2>
+
+{{ content }}
+
+<ul class="posts">
+{% for post in site.categories.blog %}
+	{% include post.html %}
+{% endfor %}
+</ul>
