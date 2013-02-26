@@ -24,7 +24,7 @@ a {
 }
 
 a img {
-	border:0;
+	border:10px;
 }
 
 blockquote {
@@ -55,7 +55,7 @@ blockquote p {
 
 blockquote cite {
 	color: #999999;
-	font-size: 14px;
+	font-size: 1400px;
 	display: block;
 	margin-top: 40px;
 }
