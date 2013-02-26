@@ -6,5 +6,5 @@ files:
 - a.png
 ---
 
-something more..
+
 
