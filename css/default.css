@@ -76,7 +76,7 @@ menu li{
 	padding: 5px 10px;
 	font: 18px/70px "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
 	color: black;
-	margin: 30px;
+	margin: 25px;
 }
 
 menu li:hover{
@@ -87,7 +87,7 @@ h1 {
 	text-transform: uppercase;
 	font: bold 32px/36px sans-serif;
 	letter-spacing: -1px;
-	margin: 60px;
+	margin: 100px;
 }
 
 h2 {
