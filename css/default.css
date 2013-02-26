@@ -74,7 +74,7 @@ menu li{
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	font: 16px/70px sans-serif;
+	font: 24px/70px "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
 	color: black;
 }
 
