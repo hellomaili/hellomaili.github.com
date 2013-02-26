@@ -57,7 +57,7 @@ blockquote cite {
 	color: #999999;
 	font-size: 14px;
 	display: block;
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
 blockquote cite:before {
@@ -67,7 +67,7 @@ blockquote cite:before {
 menu {
 	float: right;
 	padding: 20px;
-	margin: 40px;
+	margin: 60px;
 }
 
 menu li{
@@ -91,7 +91,7 @@ h1 {
 h2 {
 	text-transform: uppercase;
 	font: bold 22px/32px sans-serif;
-	letter-spacing: 1px;
+	letter-spacing: -1px;
 	padding: 10px 0;
 }
 
