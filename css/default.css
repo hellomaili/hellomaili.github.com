@@ -44,7 +44,7 @@ blockquote:before {
 	content: "\201C";
 	font-size: 80px;
 	position: absolute;
-	left: 20px;
+	left: 40px;
 	top: 40px;
 	color: #7a7a7a;
 }
@@ -76,7 +76,7 @@ menu li{
 	padding: 5px 10px;
 	font: 18px/70px "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
 	color: black;
-	margin: 60px;
+	margin: 40px;
 }
 
 menu li:hover{
