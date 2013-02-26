@@ -4,7 +4,7 @@ html {
 
 body {
 	background: #fafafa;
-	padding: 20px;
+	padding: 40px;
 }
 
 /* for IE8 */
@@ -66,8 +66,8 @@ blockquote cite:before {
 
 menu {
 	float: right;
-	padding: 0;
-	margin: 0;
+	padding: 20px;
+	margin: 20px;
 }
 
 menu li{
