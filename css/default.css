@@ -24,7 +24,8 @@ a {
 }
 
 a img {
-	border:10px;
+	border: 0px;
+	padding: 10px;
 }
 
 blockquote {
@@ -44,8 +45,8 @@ blockquote:before {
 	content: "\201C";
 	font-size: 80px;
 	position: absolute;
-	left: 40px;
-	top: 40px;
+	left: 0px;
+	top: -20px;
 	color: #7a7a7a;
 }
 
@@ -55,9 +56,9 @@ blockquote p {
 
 blockquote cite {
 	color: #999999;
-	font-size: 400px;
+	font-size: 14px;
 	display: block;
-	margin-top: 40px;
+	margin-top: 5px;
 }
 
 blockquote cite:before {
@@ -75,6 +76,7 @@ menu li{
 	float: left;
 	padding: 5px 10px;
 	font: 18px/70px "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
+	font-weight: lighter;
 	color: black;
 	
 }
@@ -90,16 +92,17 @@ h1 {
 	margin: 80px;
 }
 
+h1 .dot {
+	color: red;
+	padding: 0 4px;
+}
+
 h2 {
 	text-transform: uppercase;
 	font: bold 22px/32px sans-serif;
 	letter-spacing: -1px;
 	padding: 10px 0;
 	margin: 80px;
-}
-
-.red {
-	color: red;
 }
 
 
