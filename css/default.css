@@ -4,7 +4,8 @@ html {
 
 body {
 	background: #fafafa;
-	padding: 80px;
+	padding: 60px;
+	margin: 60px;
 }
 
 /* for IE8 */
