@@ -55,7 +55,7 @@ blockquote p {
 
 blockquote cite {
 	color: #999999;
-	font-size: 1400px;
+	font-size: 400px;
 	display: block;
 	margin-top: 40px;
 }
@@ -67,7 +67,7 @@ blockquote cite:before {
 menu {
 	float: right;
 	padding: 20px;
-	margin: 60px;
+	margin: 40px;
 }
 
 menu li{
