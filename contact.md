@@ -17,7 +17,7 @@ Contact
 <br>
 <br>
 <br>
-maili@rooden.ee<br>
+<center>maili@rooden.ee<br>
 +372 5363 2004
-
+</center>
 
