@@ -6,6 +6,7 @@ files:
 - a.png
 - b.jpg
 - c.jpg
+- d.jpg
 ---
 
 
