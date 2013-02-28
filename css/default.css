@@ -107,6 +107,10 @@ h2 {
 
 #album a {
 	float: left;
+<<<<<<< HEAD
+=======
+	margin:auto
+>>>>>>> parent of d27a47c... album
 }
 
 #album img {
