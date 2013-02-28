@@ -106,7 +106,11 @@ h2 {
 }
 
 .post
+	
+#post {
 	margin: 80px;
+	
+}
 
 #album a {
 	float: left;
@@ -116,6 +120,6 @@ h2 {
 
 #album img {
 	margin: 10px;
-	border: 1px solid #ddd;
+	border: 1px solid #cccccc;
 }
 
