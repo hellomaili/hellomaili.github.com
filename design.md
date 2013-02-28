@@ -7,6 +7,8 @@ files:
 - b.jpg
 - c.jpg
 - d.jpg
+- e.jpg
+- f.jpg
 ---
 
 
