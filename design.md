@@ -7,5 +7,4 @@ files:
 - b.jpg
 ---
 
-something..
 

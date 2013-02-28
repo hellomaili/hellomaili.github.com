@@ -3,9 +3,10 @@ layout: images
 title: Photography
 folder: /photography/
 files:
-- a.png
+- a.jpg
 - b.jpg
 - c.jpg
+- d.jpg
 ---
 
 
