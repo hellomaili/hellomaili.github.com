@@ -64,13 +64,14 @@ blockquote cite:before {
 	content: "\2014 \2009";
 }
 
-menu {
+.menu {
+	list-style: none
 	float: right;
 	padding: 20px;
 	margin: 40px;
 }
 
-menu li{
+.menu li{
 	display: block;
 	float: left;
 	padding: 5px 10px;
@@ -80,8 +81,8 @@ menu li{
 	
 }
 
-menu li:hover{
-	color:#666;
+.menu li:hover{
+	color: #333;
 }
 
 h1 {
