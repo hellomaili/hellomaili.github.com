@@ -107,12 +107,13 @@ h2 {
 
 #album a {
 	float: left;
+	margin:auto
 }
 
 #album img {
 	margin: 10px;
-	padding: 10px;
-	background: #fff;
+	padding: 0px;
+	background: none;
 	border: 1px solid #ddd;
 }
 
