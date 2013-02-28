@@ -9,6 +9,8 @@ files:
 - d.jpg
 - e.jpg
 - f.jpg
+- g.jpg
+- h.jpg
 ---
 
 
