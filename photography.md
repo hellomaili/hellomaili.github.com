@@ -4,8 +4,8 @@ title: Photography
 folder: /photography/
 files:
 - a.png
--b.jpg
--c.jpg
+- b.jpg
+- c.jpg
 ---
 
 
