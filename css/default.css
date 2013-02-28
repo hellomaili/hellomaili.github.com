@@ -65,7 +65,7 @@ blockquote cite:before {
 }
 
 .menu {
-	list-style: none
+	list-style: none;
 	float: right;
 	padding: 20px;
 	margin: 40px;
