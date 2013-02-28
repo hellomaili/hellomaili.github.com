@@ -6,11 +6,7 @@
 	<link rel="stylesheet" href="/css/default.css" type="text/css" />{% for css in page.css %}
 	<link rel="stylesheet" href="{{ css }}" type="text/css" />{% endfor %}{% for js in page.javascript %}
 	<script type="text/javascript" src="{{ js }}"></script>{% endfor %}
-    <div id="post">
-{{ content }}
-</div>
 </head><body>
-
 
 <ul class=menu>
 	<li><a href="/photography.html">photography</a></li>
@@ -19,5 +15,7 @@
 </ul>
 
 <h1><a href="/">Maili<span class=dot>.</span>Rooden</a></h1>
+
+{{ content }}
 
 </body></html>
