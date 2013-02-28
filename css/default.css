@@ -25,7 +25,6 @@ a {
 
 a img {
 	border: 0px;
-	padding: 10px;
 }
 
 blockquote {
@@ -105,4 +104,11 @@ h2 {
 	margin: 80px;
 }
 
+#album a {
+	float: left;
+}
+
+album img {
+	padding: 10px;
+}
 
