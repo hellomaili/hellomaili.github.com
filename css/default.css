@@ -111,6 +111,7 @@ h2 {
 #post {
 	margin: 80px;
 	overflow: auto;
+	clear: both;
 }
 
 #footer {
