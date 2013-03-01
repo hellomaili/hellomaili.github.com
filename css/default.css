@@ -5,6 +5,7 @@ html {
 body {
 	background: #fafafa;
 	padding: 60px;
+	margin: 0;
 }
 
 /* for IE8 */
@@ -109,7 +110,12 @@ h2 {
 	
 #post {
 	margin: 80px;
-	
+	overflow: auto;
+}
+
+#footer {
+ 	margin: 20px 80px;
+	clear: both;
 }
 
 #album a {

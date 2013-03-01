@@ -3,7 +3,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<title>{{ page.title }}</title>{% if page.summary %}
 	<meta name="description" content="{{ page.summary }}" />{% endif %}
-	<link rel="stylesheet" href="/css/default.css" type="text/css" />{% for css in page.css %}
+	<link rel="stylesheet" href="/css/default.css" type="text/css" />
+	<link id=blue rel="alternate stylesheet" title="Blue theme" href="/css/blue.css">{% for css in page.css %}
 	<link rel="stylesheet" href="{{ css }}" type="text/css" />{% endfor %}{% for js in page.javascript %}
 	<script type="text/javascript" src="{{ js }}"></script>{% endfor %}
 </head><body>
@@ -18,4 +19,18 @@
 <div id="post">
 {{ content }}
 </div>
-</body></html>
+<div id=footer>2013</div>
+</body>
+<script>
+
+function nextTheme() {
+	var link = document.getElementById("blue")
+	document.cookie = "blue=" + link.disabled
+	link.disabled = !link.disabled
+}
+
+document.getElementById("footer").onclick = nextTheme
+
+if (document.cookie.indexOf("blue=t") > -1) nextTheme()
+</script>
+</html>
