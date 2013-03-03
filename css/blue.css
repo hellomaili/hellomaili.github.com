@@ -7,7 +7,7 @@ body {
 
 .menu {
 	height: 50px;
-	float: right;
+	float: none;
 	margin: 0;
 	padding: 0;
 	background: #1e5799; /* Old browsers */
@@ -24,7 +24,7 @@ body {
 
 h1, #post, #footer {
 	margin: 20px;
-
+	float: center
 }
 
 
