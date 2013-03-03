@@ -17,14 +17,14 @@ body {
 }
 
 .menu li {
-	padding: 100p 12px;
+	padding: 0px 12px;
 	line-height: 50px;
 	font: 30px/70px "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
 }
 
 h1, #post, #footer {
 	margin: 50px;
-	float: inherit
+	float: left
 }
 
 
