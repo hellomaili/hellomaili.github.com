@@ -23,14 +23,16 @@
 </body>
 <script>
 
+var link = document.getElementById("blue")
+// Fix for Chrome
+link.disabled = true
 function nextTheme() {
-	var link = document.getElementById("blue")
-	document.cookie = "blue=" + link.disabled
+	document.cookie = "blue=" + link.disabled + "; path=/"
 	link.disabled = !link.disabled
 }
 
 document.getElementById("footer").onclick = nextTheme
 
-if (document.cookie.indexOf("blue=t") > -1) nextTheme()
+if (document.cookie.indexOf("blue=t") > -1) link.disabled = false
 </script>
 </html>
