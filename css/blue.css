@@ -24,13 +24,13 @@ body {
 
 h1 {
 	margin: 300px;
-	float: left
+	float: right
 	
 }
 
 #post, #footer {
 	margin: 50px;
-	float: left
-}
+	float: none
+	}
 
 
