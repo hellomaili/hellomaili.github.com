@@ -22,8 +22,14 @@ body {
 	font: 30px/70px "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
 }
 
-h1, #post, #footer {
+h1 {
 	margin: 300px;
+	float: left
+	
+}
+
+#post, #footer {
+	margin: 50px;
 	float: left
 }
 
