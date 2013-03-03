@@ -20,6 +20,7 @@ body {
 	padding: 100p 12px;
 	line-height: 50px;
 	font: 30px/70px "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
+	float: left;
 }
 
 h1, #post, #footer {
