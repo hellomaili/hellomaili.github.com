@@ -24,7 +24,7 @@ body {
 
 h1, #post, #footer {
 	margin: 20px;
-	float: center
+	float: inherit
 }
 
 
