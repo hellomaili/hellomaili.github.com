@@ -1,0 +1,157 @@
+@import url("theme/common.css");
+@import url("theme/shadow.css");
+@import url("theme/flip.css");
+
+body {
+	background: #f6f6f6 url(bg.jpg) repeat;
+	color: #333;
+	font: 18px/1.5 'Open Sans', Arial;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.app {
+	width: 880px;
+	margin: 3em auto;
+}
+
+
+.card {
+	height: 300px;
+}
+
+.front, .back {
+	box-shadow: inset 0 30px 60px -40px rgba(0,0,0,.6), 0 0 5px 0 rgba(0,0,0,.5);
+}
+
+.front {
+	background-color: #F0B5FF;
+
+}
+.back {
+
+	background: #FAAC07;
+}
+
+
+.card-body {
+	padding: 3em 2em;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 2.3em;
+	padding: 0;
+	margin: 0;
+	line-height: 34px;
+	color: #446;
+}
+h2 {
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.photo {
+	padding: 2px;
+	margin-right: 2em;
+	border: 1px solid #ccc;
+	background: #fff;
+	float: left;
+	line-height: 1px;
+}
+
+dl {
+	margin: 0;
+	padding: 2em 1em;
+	font-size: .8em;
+}
+dt {
+	float: left;
+	background-color: #E0A5EF;
+	padding: 0 .3em;
+	-moz-border-radius: .2em;
+	     border-radius: .2em;
+}
+dd {
+	margin: 0 0 .6em 6em;
+	padding: 0;
+	
+	
+}
+
+.grid-1 {
+	float: left;
+	width: 70%;
+	overflow: visible;
+}
+
+.grid-2 {
+	background-color: #F0B5FF;
+	overflow: visible;
+	margin-left: 71%;
+	height: 200px;
+}
+
+
+.nav {
+	position: relative;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0 0 0 6.4em;
+
+	position: relative;
+	background-color: #eee;
+	height: 4em;
+	box-shadow: inset 0 2em 4em -2em rgba(0,0,0,.5), 0 0 5px 0 rgba(0,0,0,.5);
+}
+
+.nav li {
+	display: block;
+	float: left;
+	width: 6.4em;
+	text-align: center;
+	margin-right: .2em;
+
+}
+.nav a {
+	height: 4em;
+	line-height: 4;
+	display: block;
+	color: #444444;
+}
+.nav a:hover, .nav a:focus, .nav a.focus {
+	font-size: 1.1em;
+	margin-top: -0.2em;
+	background-color: #fdfdfd;
+	border-radius: .5em;
+	box-shadow: inset 0 60px 120px -60px rgba(0,0,0,.3), 0 0 5px 0 rgba(0,0,0,.5);
+}
+
+.nav a:focus, .nav a.focus {
+	box-shadow: inset 0 60px 120px -60px rgba(0,0,0,.8), 0 0 5px 0 rgba(0,0,0,.8);
+}
+
+#album a {
+	display: block;
+
+	float: left;
+	width: 64px;
+	height: 64px;
+	overflow: hidden;
+	padding: 2px;
+	margin: 0 4px 4px 0;
+	border: 1px solid #ccc;
+	background: #fff;
+	line-height: 1px;
+}
+#album a img {
+	height: 100%;
+}
+
+.footer {
+	clear: both;
+	margin: 1em;
+	font-size: .6em;
+	text-align: right;
+}
+

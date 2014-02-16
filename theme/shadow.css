@@ -1,0 +1,44 @@
+
+.shadow {
+	position:relative;
+}
+
+.shadow:before, .shadow:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+}
+
+.lifted:before, .lifted:after {
+	-webkit-transform: skew(-3deg,-2deg);
+	-moz-transform: skew(-3deg,-2deg);
+	-ms-transform: skew(-3deg,-2deg);
+	transform: skew(-3deg,-2deg);
+	bottom: 14px;
+	box-shadow: 0 15px 5px rgba(0, 0, 0, 0.6);
+	height: 50%;
+	left: 1px;
+	max-width: 50%;
+	width: 50%;
+}
+.lifted:after {
+	-webkit-transform: skew(3deg,2deg);
+	-moz-transform: skew(3deg,2deg);
+	-ms-transform: skew(3deg,2deg);
+	transform: skew(3deg,2deg);
+	left: auto;
+	right: 1px;
+}
+
+.curved:before {
+	top:7px;
+	bottom:7px;
+	width: 14px;
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.6);
+	   -moz-box-shadow: 0 0 7px rgba(0,0,0,0.6);
+	        box-shadow: 0 0 7px rgba(0,0,0,0.6);
+	-moz-border-radius: 7px / 50%;
+	     border-radius: 7px / 50%;
+}
+
+
